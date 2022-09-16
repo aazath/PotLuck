@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.AdDetailsActivity">
+
+    <RelativeLayout
+        android:id="@+id/details_top_bar"
+        android:layout_width="match_parent"
+        android:background="@color/primary"
+        android:layout_height="65dp">
+    <ImageView
+        android:id="@+id/back_arrow"
+        android:src="@drawable/backarrow"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        />
+
+        <TextView
+            android:id="@+id/details"
+            android:text="Details"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/details_entry_panel"
+        android:layout_below="@id/details_top_bar"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Where are you selling this item?"
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="18sp"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundColor="@color/white"
+            app:startIconDrawable="@drawable/ic_baseline_location_on_24"
+            android:hint="Select location"
+            android:layout_below="@id/tv_location"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="What is the price of the item?"
+            android:layout_below="@id/ti_location"
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="18sp"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundColor="@color/white"
+            app:startIconDrawable="@drawable/ic_price"
+            android:layout_below="@id/tv_price"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_prepare_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="How long does it take to prepare?"
+            android:layout_below="@id/ti_price"
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="18sp"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_prepare_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxBackgroundColor="@color/white"
+            app:startIconDrawable="@drawable/ic_clock"
+            android:layout_below="@id/tv_prepare_time"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Next"
+            android:fontFamily="@font/poppinsblack"
+            android:textSize="20sp"
+            android:layout_below="@id/ti_prepare_time"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

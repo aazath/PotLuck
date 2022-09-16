@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">PotLuck</string>
+    <string name="hey">Hey,</string>
+    <string name="if_you_are_new">If you are new /</string>
+    <string name="create_one">Create one</string>
+    <string name="forgot">Forgot Password /</string>
+    <string name="reset">Reset</string>
+    <string name="login_now">Login Now</string>
+    <string name="username_hint">Username:</string>
+    <string name="password_hint">Password:</string>
+    <string name="icon">Icon</string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="welcome">Register your Account!</string>
+    <string name="txtName">Name</string>
+    <string name="txtEmail">Email</string>
+    <string name="txtPhoneNo">Phone No</string>
+    <string name="register">Register</string>
+    <string name="welcomeBack">Welcome back!</string>
+    <string name="sendResetLink">Send reset link</string>
+    <string name="tvMyAds">My Ads</string>
+    <string name="Arrow">Arrow</string>
+    <string name="post_new_ad">Post new ad</string>
+    <string name="back_arrow">back_arrow</string>
+    <string name="tv_select_category">Select Category</string>
+    <string name="select_category">Select Category</string>
+    <string name="add_image">Add some real images of your item (upto 4)</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="order">Orders</string>
+    <string-array name="categories">
+        <item>Biryani</item>
+        <item>Rice and Curry</item>
+        <item>Short Eats</item>
+        <item>Breakfast</item>
+        <item>Dessert</item>
+        <item>Curry</item>
+        <item>Salad</item>
+        <item>Juice</item>
+        <item>Other</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="myads">My Ads</string>
+    <string name="pendingorders">Pending Orders</string>
+    <string name="completedorders">Competed Orders</string>
+    <string name="review">Reviews</string>
+    <string name="all_orders">All Orders</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="completed">Completed</string>
+</resources>

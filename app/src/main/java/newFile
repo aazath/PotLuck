@@ -1,0 +1,67 @@
+myads activity shows error - unfortunately stops the app
+
+Order details in profile fragment
+       <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tiMyads"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:startIconDrawable="@drawable/ads"
+                app:boxBackgroundColor="@color/white"
+                app:layout_constraintTop_toBottomOf="@id/tiAddress"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/myads"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tiPendingOrders"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:startIconDrawable="@drawable/pending_orders"
+                app:boxBackgroundColor="@color/white"
+                app:layout_constraintTop_toBottomOf="@id/tiMyads"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/pendingorders"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tiCompletedOrders"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:startIconDrawable="@drawable/completed_orders"
+                app:boxBackgroundColor="@color/white"
+                app:layout_constraintTop_toBottomOf="@id/tiPendingOrders"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/completedorders"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tiReviews"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:startIconDrawable="@drawable/reviews"
+                app:boxBackgroundColor="@color/white"
+                app:layout_constraintTop_toBottomOf="@id/tiCompletedOrders"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/review"
+                    tools:ignore="TextContrastCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
